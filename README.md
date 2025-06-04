@@ -1,69 +1,25 @@
-# Monopoly Boycott Game (oTree)
+# Econ 165 Spring 2025 — oTree Experiments
 
-This repository contains the oTree implementation of the **Monopoly Boycott Game**, developed for ECON 165 at UC Santa Cruz. The project idea originated from Jennifer Sotelo Perez, Isaac Robles, and Ryan Bradley.
+This repository contains a unified oTree project consisting of **three experimental apps** developed for research and teaching in behavioral and experimental economics.
 
-## 🧠 Purpose
-The experiment models a simple monopolist-consumer market, where:
-- One **monopolist** sets a price each round.
-- Multiple **consumers** decide whether to purchase or boycott.
-- The game includes variants with different demand slopes (flat/step) and optional communication (chat) between consumers.
+### Included Apps
 
-## 🧪 Experimental Structure
-- Each session has 1 monopolist and multiple consumers.
-- Rounds are grouped into blocks.
-- Treatments can be toggled using session configs.
+1. **`boycott_consumer`**  
+   A consumer-side coordination game exploring price resistance and boycotting behavior in monopolist settings.
 
-## 📁 Repo Contents
-- `monopoly_boycott/` — main oTree app with game logic
-  - `models.py` — defines players, groups, and payoff logic
-  - `pages.py` — defines the sequence of pages shown to players
-  - `templates/` — contains all HTML files for each page
-- `settings.py` — oTree session configurations and defaults
-- `requirements.txt` — list of dependencies
-- `Procfile` — for deployment (e.g. on Heroku)
+2. **`monopoly_boycott`**  
+   A behavioral experiment on monopolist pricing and consumer coordination, with and without communication.
+
+3. **`ses_behavior`**  
+   A multi-game experiment studying the role of social status (SES) in prosocial behavior, using the Dictator Game, Trust Game, and Prisoner’s Dilemma.
 
 ---
 
-## 🧩 How It Works
+### Running the Project
 
-1. The **monopolist** sets a price.
-2. **Consumers** decide to buy or not.
-3. Optionally, consumers can chat during certain rounds.
-4. Payoffs:
-   - Consumers get `endowment - price` if they buy.
-   - Monopolist gets `price × number of buyers`.
+Make sure you have Python and oTree installed.
 
----
-
-## 🔧 Customization
-
-You can change settings in `settings.py`:
-- `use_chat=True` — enables consumer chat.
-- `demand_slope='step'` or `'flat'` — controls how consumer values are assigned.
-- `num_demo_participants=3` — adjust number of players in demo.
-
----
-
-## ▶️ Running the Game Locally
-
-### 1. Clone the repository
 ```bash
-git clone https://github.com/vivianzvz/monopoly_boycott.git
-cd monopoly_boycott
-```
-
-### 2. Create and activate a virtual environment
-```bash
-python3 -m venv venv
-source venv/bin/activate  # On Windows use: venv\Scripts\activate
-```
-
-### 3. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Run the oTree dev server
-```bash
+pip install otree
 otree devserver
 ```
