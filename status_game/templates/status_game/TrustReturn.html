@@ -1,0 +1,14 @@
+{% block content %}
+  <h3>Trust Game</h3>
+  {{ include_sibling 'TrustInstructions.html' }}
+  <h3>Receiver (Participant B)</h3>
+
+  {% if player.sees_ses %}
+  <p>Your SES rung: {{ ses_self_rung }}</p>
+  <p>The other participant's SES rung: {{ other_ses_rung }}</p>
+  {% endif %}
+
+  <p>You received {{ tripled_amount }} from the sender. How much would you like to return?</p>
+  {{ formfields }}
+  {{ next_button }}
+{% endblock %}

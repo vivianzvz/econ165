@@ -1,0 +1,16 @@
+{% block content %}
+<div class="card bg-light m-3">
+  <div class="card-body">
+    <h3 class="card-title">Dictator Game</h3>
+    <h5 class="card-subtitle mb-3 text-muted">You are the Recipient (Participant 2)</h5>
+
+    <p>Participant 1 has <strong>100 points</strong> and will decide how much to keep.</p>
+    <p>The remaining amount will be automatically given to you.</p>
+
+    <p class="mt-3"><em>You do not need to make any decision in this round.</em></p>
+  </div>
+</div>
+
+<p><em>Click "Next" after reading the instructions.</em></p>
+{{ next_button }}
+{% endblock %}

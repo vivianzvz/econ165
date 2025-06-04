@@ -1,0 +1,14 @@
+{% block content %}
+  <h3>Prisoner's Dilemma</h3>
+  {{ include_sibling 'PDInstructions.html' }}
+
+
+  {% if player.sees_ses %}
+  <p>Your SES rung: {{ ses_self_rung }}</p>
+  <p>The other participant's SES rung: {{ other_ses_rung }}</p>
+  {% endif %}
+
+  <p>Choose whether to cooperate or defect:</p>
+  {{ formfields }}
+  {{ next_button }}
+{% endblock %}

@@ -1,0 +1,35 @@
+
+<div class="card bg-light m-3">
+  <div class="card-body">
+    <h4>Instructions</h4>
+    <p>
+      In this study, you will be randomly and anonymously paired with another
+      participant. Each of you simultaneously and privately chooses whether
+      to cooperate or defect. Your payoffs will be determined by the choices
+      of both, as shown below:
+    </p>
+    <p><i>In each cell, the amount to the left is your payoff, and to the right is the other participant's.</i></p>
+
+    <table class='table table-bordered text-center' style='width: auto; margin: auto'>
+      <tr>
+        <th colspan=2 rowspan=2></th>
+        <th colspan=2>The Other Participant</th>
+      </tr>
+      <tr>
+        <th>Cooperate</th>
+        <th>Defect</th>
+      </tr>
+      <tr>
+        <th rowspan=2><span style="transform: rotate(-90deg);">You</span></th>
+        <th>Cooperate</th>
+        <td>{{ pd_cc }}, {{ pd_cc }}</td>
+        <td>{{ pd_cd }}, {{ pd_dc }}</td>
+      </tr>
+      <tr>
+        <th>Defect</th>
+        <td>{{ pd_dc }}, {{ pd_cd }}</td>
+        <td>{{ pd_dd }}, {{ pd_dd }}</td>
+      </tr>
+    </table>
+  </div>
+</div>

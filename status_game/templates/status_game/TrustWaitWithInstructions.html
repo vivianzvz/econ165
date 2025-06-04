@@ -1,0 +1,17 @@
+{% block content %}
+<div class="card bg-light m-3">
+  <div class="card-body">
+    <h3 class="card-title">Trust Game</h3>
+    <h5 class="card-subtitle mb-3 text-muted">You are the Receiver (Participant B)</h5>
+
+    <p>Participant A starts with <strong>{{ endowment }}</strong> points.</p>
+
+    <p>Participant A is deciding how much of their endowment to send you.</p>
+
+    <p>You will receive <strong>three times</strong> the amount they send. After that, you will choose how much to return.</p>
+  </div>
+</div>
+
+<p><em>Click "Next" after reading the instructions.</em></p>
+{{ next_button }}
+{% endblock %}

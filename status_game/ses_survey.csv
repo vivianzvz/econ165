@@ -1,0 +1,34 @@
+email,age,gender,hispanic,race,college_year,income,assets,housing,gov_assistance,ses_family_rung,ses_self_rung
+Nyu16@ucsc.edu,19,Man,No,Asian,Senior (135 credits or more),"$50,000 - $74,999",No,Off-campus housing (renting apartment/house),SNAP / EBT,5,2
+jlai49@ucsc.edu,21,Man,No,Asian,Senior (135 credits or more),"$0 - $19,999",Yes,Off-campus housing (renting apartment/house),None,7,1
+dwang142@ucsc.edu,19,Man,No,Asian,Junior (90 to 134 credits),"$0 - $19,999",Yes,Off-campus housing (renting apartment/house),SNAP / EBT,6,2
+lkocherg@ucsc.edu,21,Non-Binary,No,White,Senior (135 credits or more),"$0 - $19,999",Yes,On-campus housing (dorms or campus apartments),None,5,3
+srewatka@ucsc.edu,18,Man,No,Asian,Sophomore (45 to 89 credits),"$0 - $19,999",No,On-campus housing (dorms or campus apartments),None,7,1
+jomalevi@ucsc.edu,20,Man,No,White,Senior (135 credits or more),,Yes,On-campus housing (dorms or campus apartments),None,6,2
+cchiu26@ucsc.edu,18,Man,No,Asian,Freshman (less than 45 credits),,No,On-campus housing (dorms or campus apartments),None,6,6
+tchen204@ucsc.edu ,19,Woman,No,Asian,Sophomore (45 to 89 credits),"$0 - $19,999",No,Off-campus housing (renting apartment/house),None,5,3
+msando35@ucsc.edu,20,Man,Yes,,Junior (90 to 134 credits),,No,On-campus housing (dorms or campus apartments),None,5,5
+kungab@ucsc.edu,20,Woman,No,Asian,Senior (135 credits or more),"$0 - $19,999",No,On-campus housing (dorms or campus apartments),None,4,6
+nwadswor@ucsc.edu,20,Man,Yes,White,Junior (90 to 134 credits),"$0 - $19,999",Yes,On-campus housing (dorms or campus apartments),None,7-Jun,4-Mar
+lrmatils@ucsc.edu,19,Woman,No,white and asian,Sophomore (45 to 89 credits),"$0 - $19,999",Yes,On-campus housing (dorms or campus apartments),SNAP / EBT,3,3
+rmacderm@ucsc.edu,28,Non-Binary,No,White,Senior (135 credits or more),"$0 - $19,999",Yes,On-campus housing (dorms or campus apartments),SNAP / EBT,1.5,1.5
+smgurusw@ucsc.edu,20,Non-Binary,No,Asian,Sophomore (45 to 89 credits),"$0 - $19,999",No,On-campus housing (dorms or campus apartments),None,7,7
+cdonald1@ucsc.edu,20,Man,No,White,Sophomore (45 to 89 credits),,Yes,Off-campus housing (renting apartment/house),None,7,7
+Kihahuyn@ucsc.edu,21,Woman,No,Asian,Senior (135 credits or more),,Yes,On-campus housing (dorms or campus apartments),SNAP / EBT,6,2
+pziring@ucsc.edu,21,Non-Binary,No,White,Junior (90 to 134 credits),"$0 - $19,999",No,On-campus housing (dorms or campus apartments),SNAP / EBT,6,5
+nacbauti@ucsc.edu,19,Woman,Yes,White and Asian ,Freshman (less than 45 credits),,Yes,On-campus housing (dorms or campus apartments),VA,7,1
+bhuang69@ucsc.edu,21,Man,No,Asian,Senior (135 credits or more),"More than $100,000",No,Off-campus housing (renting apartment/house),None,6,4
+jlei26@ucsc.edu,19,Woman,No,Asian,Sophomore (45 to 89 credits),,Yes,Off-campus housing (renting apartment/house),SNAP / EBT;Medicaid,3,1
+fzheng8@ucsc.edu,22,Man,Yes,Asian,Senior (135 credits or more),,Prefer not say,On-campus housing (dorms or campus apartments),None,6,1
+kchen231@ucsc.edu,19,Man,No,Asian,Senior (135 credits or more),"$20,000 - $49,999",Yes,On-campus housing (dorms or campus apartments),None,4,3
+smondair@ucsc.edu,20,Woman,No,Asian,Senior (135 credits or more),"$0 - $19,999",Yes,Off-campus housing (renting apartment/house),SNAP / EBT,5,2
+dmahler@ucsc.edu,22,Woman,No,Mixed (Asian/White),Senior (135 credits or more),"$0 - $19,999",No,Off-campus housing (renting apartment/house),None,6,3
+abansal6@ucsc.edu,20,Man,No,Asian,Junior (90 to 134 credits),,No,Off-campus housing (renting apartment/house),None,6,2
+cesgonza@ucsc.edu,19,Woman,Yes,White,Sophomore (45 to 89 credits),"$0 - $19,999",No,Off-campus housing (renting apartment/house),SNAP / EBT,3,4
+vren4@ucsc.edu,18,Woman,No,Asian,Sophomore (45 to 89 credits),,Yes,On-campus housing (dorms or campus apartments),None,7-Jun,1
+stunamal@ucsc.edu,21,Woman,No,Asian,Senior (135 credits or more),"$0 - $19,999",Yes,On-campus housing (dorms or campus apartments),SNAP / EBT;Medicaid,5-Apr,4
+mlising@ucsc.edu,18,Woman,No,Asian,Sophomore (45 to 89 credits),,Yes,On-campus housing (dorms or campus apartments),None,7,7
+gavat@ucsc.edu,21,Man,No,White,Senior (135 credits or more),"$20,000 - $49,999",Yes,On-campus housing (dorms or campus apartments),None,6,6
+Jgome126@ucsc.edu,20,Woman,Yes,White,Sophomore (45 to 89 credits),"$20,000 - $49,999",Yes,On-campus housing (dorms or campus apartments),None,3,6
+,,,,,,,,,,,
+jzheng68@ucsc.edu,,,,,,,,,,0,0

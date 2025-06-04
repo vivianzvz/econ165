@@ -1,0 +1,25 @@
+{% block content %}
+  <h2>Final Results</h2>
+
+
+  <p>Your total earnings from all rounds: <strong>{{ total_payoff }} points</strong></p>
+
+
+
+  <table class="table">
+      <thead>
+          <tr>
+              <th>Round</th>
+              <th>Payoff</th>
+          </tr>
+      </thead>
+      <tbody>
+          {% for r in player.in_all_rounds %}
+          <tr>
+              <td>{{ r.round_number }}</td>
+              <td>{{ r.payoff }}</td>
+          </tr>
+          {% endfor %}
+      </tbody>
+  </table>
+{% endblock %}

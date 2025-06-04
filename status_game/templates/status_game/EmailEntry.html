@@ -1,0 +1,11 @@
+{% block content %}
+  <h3>Enter Your UCSC Email</h3>
+  <p>Please enter only the part before <code>@ucsc.edu</code>.</p>
+
+  <div class="input-group mb-3" style="max-width: 400px;">
+    <input type="text" name="ucsc_email" class="form-control" required>
+    <span class="input-group-text">@ucsc.edu</span>
+  </div>
+
+  {{ next_button }}
+{% endblock %}
