@@ -56,6 +56,10 @@ class BuyerDecision(Page):
     form_model = 'player'
     form_fields = ['buyer_choice']
 
+    def error_message(self, values):
+        if not values.get('buyer_choice'):
+            return "Please select an option before continuing."
+
     def vars_for_template(self):
         treatment = self.player.treatment
         all_players = self.subsession.get_players()

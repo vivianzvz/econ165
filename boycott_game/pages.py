@@ -15,7 +15,7 @@ class InstructionsWithChat(Page):
 class RolePageMonopolist(Page):
     def is_displayed(self):
         return self.round_number == 1 and self.player.player_role == 'monopolist'
-    
+
 class RolePageConsumer(Page):
     def is_displayed(self):
         return self.round_number == 1 and self.player.player_role == 'consumer'
@@ -62,7 +62,6 @@ class PriceDecision(Page):
             past_price = getattr(past_monop, 'price', None)
             past_profit = getattr(past_monop, 'payoff', None)
 
-
             if past_price is not None:
                 row = dict(
                     round_number=past_group.round_number,
@@ -79,13 +78,17 @@ class PriceDecision(Page):
             player_id=self.player.id_in_group,
             block_number=((self.round_number - 1) // 5) + 1,
             history=history
-            )
+        )
 
+    def error_message(self, values):
+        if self.timeout_happened:
+            return  # no error if timeout occurred
+        if values.get('price') is None:
+            return "Please enter a price before continuing."
 
     def before_next_page(self):
-        if self.timeout_happened and getattr(self.player, 'price', None) is None:
-            self.player.price = 0  # or any reasonable default
-
+        if self.timeout_happened and self.player.field_maybe_none('price') is None:
+            self.player.price = 0
 
 
 

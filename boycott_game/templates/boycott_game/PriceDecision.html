@@ -34,7 +34,9 @@
 <br><br>
 
 <label>Set the price for this period:</label><br>
-{% formfield player.price %}
+<input type="number" name="price" min="0" required class="form-control">
+
+
 
 <button class="btn btn-primary">Submit</button>
 
@@ -75,7 +77,10 @@ const countdown = setInterval(() => {
 
     if (timeLeft <= 0) {
         clearInterval(countdown);
+        document.querySelector('input[name="price"]').disabled = true;
+        document.querySelector('button[type="submit"]').disabled = true;
     }
+
 }, 1000);
 </script>
 
