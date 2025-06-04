@@ -60,3 +60,4 @@ ADMIN_PASSWORD = environ.get('OTREE_ADMIN_PASSWORD')
 DEMO_PAGE_INTRO_HTML = "Here are some oTree games."
 SECRET_KEY = '1554698864068'
 INSTALLED_APPS = ['otree']
+DEBUG = False
