@@ -1,17 +1,20 @@
 # Econ 165 Spring 2025 — oTree Experiments
 
-This repository contains a unified oTree project consisting of **three experimental apps** developed for research in behavioral and experimental economics.
+This repository combines three oTree experimental apps into a single unified project for deployment and collaborative development. Each app can also be used as a standalone project and is available in its own GitHub repository.
 
-### Included Apps
+### 📦 Included Apps
 
 1. **`boycott_consumer`**  
-   A consumer-side coordination game exploring price resistance and boycotting behavior in monopolist settings.
+   Consumer coordination and boycott behavior under monopoly pricing.  
+   GitHub: [boycott_consumer](https://github.com/vivianzvz/boycott_consumer)
 
 2. **`monopoly_boycott`**  
-   A behavioral experiment on monopolist pricing and consumer coordination, with and without communication.
+   A market experiment exploring pricing strategies and consumer resistance with and without communication.  
+   GitHub: [monopoly_boycott](https://github.com/vivianzvz/monopoly_boycott)
 
 3. **`ses_behavior`**  
-   A multi-game experiment studying the role of social status (SES) in prosocial behavior, using the Dictator Game, Trust Game, and Prisoner’s Dilemma.
+   A multi-stage experiment examining how social status (SES) affects prosocial choices in the Dictator Game, Trust Game, and Prisoner’s Dilemma.  
+   GitHub: [ses_behavior](https://github.com/vivianzvz/ses_behavior)
 
 ---
 
