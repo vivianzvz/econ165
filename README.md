@@ -1,6 +1,6 @@
 # Econ 165 Spring 2025 — oTree Experiments
 
-This repository contains a unified oTree project consisting of **three experimental apps** developed for research and teaching in behavioral and experimental economics.
+This repository contains a unified oTree project consisting of **three experimental apps** developed for research in behavioral and experimental economics.
 
 ### Included Apps
 
