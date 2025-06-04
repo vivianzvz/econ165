@@ -26,14 +26,14 @@
 
 <p>Please solve the following math problems:</p>
 
-<ol>
+<ul>
   {% for fieldname, question in labeled_pairs %}
     <li>
         <strong>{{ question.0 }} + {{ question.1 }} =</strong><br>
         {{ formfield fieldname }}
     </li>
   {% endfor %}
-</ol>
+</ul>
 
 {% next_button %}
 
