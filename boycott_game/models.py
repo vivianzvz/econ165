@@ -11,7 +11,7 @@ Monopolist Boycott Game:
 
 class C(BaseConstants):
     NAME_IN_URL = 'boycott_game'
-    PLAYERS_PER_GROUP = 12  # 1 monopolist + 5 consumers ==> changed if from 3 to 6
+    PLAYERS_PER_GROUP = 24  # 1 monopolist + 5 consumers ==> changed if from 3 to 6
     NUM_ROUNDS = 10
 
 class Subsession(BaseSubsession):
